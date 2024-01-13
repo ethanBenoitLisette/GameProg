@@ -292,6 +292,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 786733233759868021, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42
+      objectReference: {fileID: 0}
     - target: {fileID: 1153936808586772973, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -404,6 +408,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4040941801904881472, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 139
+      objectReference: {fileID: 0}
     - target: {fileID: 6322254616987924796, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -431,6 +439,14 @@ PrefabInstance:
     - target: {fileID: 6322254616987924796, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385695582842723824, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385695582842723824, guid: 5e46bc7194c2cce41a1ad4a8c356660f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -47
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
