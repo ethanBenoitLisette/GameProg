@@ -7,6 +7,7 @@ public class SquareMovement : MonoBehaviour
 
     private float currentSpeed;
     public bool isGolden = true;
+    public bool isBlack = true;
 
     void Start()
     {
