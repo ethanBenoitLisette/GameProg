@@ -67,7 +67,6 @@ Vector3 GetRandomSpawnPosition()
 
     void Awake()
     {
-        // Assure-toi qu'il n'y a qu'une seule instance du GameController
         if (Instance == null)
         {
             Instance = this;
@@ -80,7 +79,6 @@ Vector3 GetRandomSpawnPosition()
 
     public void QuitGame()
     {
-        // Ajoute d'autres actions de quitter le jeu si nécessaire
         Debug.Log("Quitting the game");
         Application.Quit();
     }
