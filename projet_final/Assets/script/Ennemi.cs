@@ -6,7 +6,7 @@ public class Ennemi : MonoBehaviour
 {
     public float speed = 10f;
     public float rotationSpeed = 500f;
-    private float HitStun = 2f;
+    private float HitStun = 1f;
     private float currentPauseDuration = 4f;
 
     private Transform player;
