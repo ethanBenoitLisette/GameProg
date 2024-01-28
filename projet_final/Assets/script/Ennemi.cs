@@ -13,16 +13,12 @@ public class Ennemi : MonoBehaviour
     private bool isPlayerPaused = false;
     private Rigidbody2D rb;
     private Collider2D ennemiCollider;
-    public float scoreDistance = 10f;
-    public int scoreValue = 10;
-    private ScoreManager scoreManager;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
         ennemiCollider = GetComponent<Collider2D>();
-        scoreManager = GetComponent<ScoreManager>();
     }
 
     void Update()
@@ -38,10 +34,6 @@ public class Ennemi : MonoBehaviour
             {
                 Destroy(gameObject);
                 SceneManager.LoadScene("menuwin"); 
-                if (scoreManager != null)
-                {
-                    scoreManager.IncreaseScoreFromEnemyExit();
-                }
             }
         }
     }
